@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 590px;
+}
+
+header{
+    background: #00796B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+}
+
+header .menu a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header .container .logo img {
+    width: 190px;
+    max-width: 100%;
+    padding-top: 9px;
+}
+
+section.inicio .container article{
+    display: flex;
+    min-height: 77.9vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section.inicio .container article img{
+    width: 770px;
+    max-width: 100%;
+}
+
+section.inicio .container article .textoinicial {
+    margin:50px 15px;
+    width: 501px;
+    max-width: 100%;
+}
+
+section.inicio .container article .textoinicial h2 {
+    color: #009688;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+section.inicio .container article .textoinicial p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #9B9B9B;
+}
+
+section.inicio .container article .textosobre p a {
+    font-weight: 400 bold;
+    font-size: 20px;
+    color: #009688;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 60px;
+    max-width: 100%;
+    max-height: 100%;
+}
+  
+  footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+  
+  footer h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+section.inicio .container .titulo h1 {
+    color: #00796B;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 0 0 0 55px;
+    
+}
+
+section.inicio .container article .textosobre p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #9B9B9B;
+}
+
+  section.inicio .container article .textosobre {
+    width: 510px;
+    max-width: 100%;
+}
+
+
+section.inicio .container article .textosobre h3 {
+    color: #00796B;
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    max-width: 100%;
+}
+
+section.inicio .container article .textosobre ol li {
+    margin-left: -20px;
+    color: #9B9B9B;
+}
+
+
+section.inicio .container article .imagemsobre img {
+    width: 575px;
+    max-width: 100%;
+}
+
+section.inicio .video {
+
+    display: flex;
+    justify-content: center;
+    margin:25px;
+}
+
+.container article .valores {
+        width: 1000px;
+        max-width: 100%;
+        text-align: center;
+}
+section.inicio .container article .valores h3 {
+        color: #00796B;
+        font-size: 30px;
+        font-weight: 800 bold;
+        
+}
+section.inicio .container article .valores p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #9B9B9B;
+        margin-bottom: 50px;
+}
+
+section.inicio .container article.contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 49.9vh;
+    margin-bottom: 90px;
+}
+
+section.inicio .container article .textosobre iframe {
+    width: 450px;
+    max-width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+section.inicio .container article .form form{
+    width: 500px;
+    max-width: 100%;
+    font-size:1rem ;
+    color: #9B9B9B;
+    margin: 0 60px;
+}
+
+section.inicio .container article form input,
+section.inicio .container article form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    resize: none;
+}
+
+section.inicio .container article form button {
+    padding: 5px 45px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
